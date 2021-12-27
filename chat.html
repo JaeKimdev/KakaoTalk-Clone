@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with Jae</title>
+</head>
+
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>Telstra</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>19%</span>
+            <i class="fas fa-battery-quarter fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="javascript:history.back();">
+                <i class="fas fa-angle-left fa-3x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Gingerbread</h1>
+        </div>
+        <div class="alt-header__column 2nd__button">
+            <span><i class="fas fa-search fa-2x"></i></span>
+            <span><i class="fas fa-bars fa-2x"></i></span>
+
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Saturday, December 25, 2021
+        </div>
+        <div class="message-row">
+            <img src="https://i.etsystatic.com/21626352/r/il/443f22/3485389766/il_1588xN.3485389766_tu8k.jpg" />
+            <div class="message-row__content">
+                <span class="message__author">Gingerbread Man</span>
+                <div class="message__info">
+                    <span class="message__buble">Hi!</span>
+                    <span class="message__time">13:25</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__buble">Merry Christmas!!</span>
+                    <span class="message__time">13:56</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__comlumn">
+            <i class="far fa-plus-square fa-2x"></i>
+        </div>
+        <div class="reply__comlumn">
+            <input type="text" placeholder="Write a message..." />
+            <i class="far fa-smile-wink fa-2x"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
+    <div id="no-mobile">
+        <p>Your screen is too big..<br>
+            Please make it smaller</p>
+    </div>
+
+    <script src="https://kit.fontawesome.com/c9d79a2254.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
